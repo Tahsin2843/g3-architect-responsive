@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* text arrangements */
+/* dark-02 */
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.text-gray{
+    color: #424242;
+}
+/* dark-03 */
+.text-light-gray{
+    color: #727272;
+}
+/* Shared */
+.display-flex{
+    display: flex;
+}
+
+
+
+/* header styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-item{
+    margin-right: 30px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar, .banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
