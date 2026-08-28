@@ -28,9 +28,10 @@
 .brand{
     font-weight: 700;
     font-size: 3rem;
+    color: red;
 }
 .button-primary{
-    background-color: #FF900E;
+    background-color: purple;
     color: white;
     padding: 20px 25px;
     font-size: 1.25rem;
